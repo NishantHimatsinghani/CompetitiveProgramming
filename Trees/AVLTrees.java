@@ -1,3 +1,17 @@
+/*
+
+Following Rules:
+    1.if(Node is left Heavy && Node.left is Left Heavy) --> RightRotate(Node)
+    
+    2.if(Node is left Heavy && Node.left is Right Heavy) --> LeftRotate(Node.Left) and then RightRotate(Node)\
+    
+    3.if(Node is Right Heavy && Node.Right is Right Heavy) --> LeftRotate(Node)
+    
+    4.if(Node is Right Heavy && Node.Right is Lefty Heavy) --> RightRotate(Node.Right) and then LeftRotate(Node)
+
+
+ */
+
 public class AVLinsertion{
     public static class Node{
 
